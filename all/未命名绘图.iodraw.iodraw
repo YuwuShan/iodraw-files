@@ -1,0 +1,60 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="DIGx1F2_cB0ist9ctc4N">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-1" value="图书管理系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="432" y="20" width="238" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-2" value="外部实体" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="965" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-3" value="图书管理员" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="251" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-4" value="读者" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="844" y="194" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-5" value="图书馆领导" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="820" y="293" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-6" value="图书管理核心加工" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="457" y="55" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-7" value="新书信息/借还单/注销指令" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.35;entryX=0.41;entryY=1.01;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-3" target="vdXa0ORuRnHu9ShuqjDz-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="308" y="254" />
+              <mxPoint x="432" y="254" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-8" value="借书拒绝/逾期罚款单" style="curved=1;startArrow=none;endArrow=block;exitX=0.43;exitY=1.01;entryX=1;entryY=0.66;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-6" target="vdXa0ORuRnHu9ShuqjDz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="432" y="297" />
+              <mxPoint x="308" y="297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-9" value="查询要求" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.72;entryX=1;entryY=0.82;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-5" target="vdXa0ORuRnHu9ShuqjDz-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="339" />
+              <mxPoint x="670" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-10" value="查询结果报表" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.34;entryX=0.1;entryY=0.01;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-6" target="vdXa0ORuRnHu9ShuqjDz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="70" />
+              <mxPoint x="745" y="254" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
