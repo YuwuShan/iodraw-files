@@ -8,7 +8,7 @@
           <mxGeometry x="432" y="20" width="238" height="119" as="geometry" />
         </mxCell>
         <mxCell id="vdXa0ORuRnHu9ShuqjDz-2" value="外部实体" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="290" width="965" height="226" as="geometry" />
+          <mxGeometry x="30" y="170" width="965" height="226" as="geometry" />
         </mxCell>
         <mxCell id="vdXa0ORuRnHu9ShuqjDz-3" value="图书管理员" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="45" y="251" width="140" height="49" as="geometry" />
@@ -51,6 +51,143 @@
             <Array as="points">
               <mxPoint x="670" y="70" />
               <mxPoint x="745" y="254" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-11" value="加工过程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="542" width="1136" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-12" value="数据存储" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="101" y="714" width="899" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-13" value="D1 图书目录文件" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="275" y="739" width="134" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-14" value="D2 借书文件" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="773" y="742" width="102" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-15" value="1.1 新书入库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="65" y="567" width="151" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-16" value="1.2 读者借书" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="503" y="567" width="151" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-17" value="1.3 读者还书" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="712" y="567" width="151" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-18" value="1.4 图书注销" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="266" y="567" width="151" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-19" value="1.5 信息查询" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="926" y="567" width="151" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-20" value="图书管理员" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="418" y="420" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-21" value="图书馆领导" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="751" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-22" value="图书卡片" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-20" target="vdXa0ORuRnHu9ShuqjDz-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="141" y="506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-23" value="写入" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.22;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-15" target="vdXa0ORuRnHu9ShuqjDz-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="141" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-24" value="借书单" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-20" target="vdXa0ORuRnHu9ShuqjDz-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="579" y="506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-25" value="检查读者/限额" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.36;exitY=1;entryX=0;entryY=0.33;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-16" target="vdXa0ORuRnHu9ShuqjDz-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="641" />
+              <mxPoint x="534" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-26" value="登记借阅" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=1;entryX=0;entryY=0.24;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-16" target="vdXa0ORuRnHu9ShuqjDz-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="643" y="641" />
+              <mxPoint x="643" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-27" value="还书单" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-20" target="vdXa0ORuRnHu9ShuqjDz-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="787" y="506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-28" value="读借阅记录" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.34;exitY=1;entryX=0.04;entryY=-0.01;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-17" target="vdXa0ORuRnHu9ShuqjDz-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="739" y="641" />
+              <mxPoint x="739" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-29" value="更新/计算罚款" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=1;entryX=0.67;entryY=-0.01;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-17" target="vdXa0ORuRnHu9ShuqjDz-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="855" y="641" />
+              <mxPoint x="855" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-30" value="注销指令" style="curved=1;startArrow=none;endArrow=block;exitX=0.08;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-20" target="vdXa0ORuRnHu9ShuqjDz-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="342" y="506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-31" value="删除记录" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-18" target="vdXa0ORuRnHu9ShuqjDz-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-32" value="查询要求" style="curved=1;startArrow=none;endArrow=block;exitX=0.6;exitY=0;entryX=0.96;entryY=1;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-21" target="vdXa0ORuRnHu9ShuqjDz-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1141" y="714" />
+              <mxPoint x="1141" y="641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-33" value="读取" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0;exitY=0.64;entryX=0.94;entryY=0;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-19" target="vdXa0ORuRnHu9ShuqjDz-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="641" />
+              <mxPoint x="442" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-34" value="读取" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=1;entryY=0.12;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-19" target="vdXa0ORuRnHu9ShuqjDz-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="947" y="641" />
+              <mxPoint x="947" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdXa0ORuRnHu9ShuqjDz-35" value="报表" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=1;entryX=0.38;entryY=0;rounded=0;" edge="1" parent="1" source="vdXa0ORuRnHu9ShuqjDz-19" target="vdXa0ORuRnHu9ShuqjDz-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1064" y="641" />
+              <mxPoint x="1064" y="714" />
             </Array>
           </mxGeometry>
         </mxCell>
